@@ -18,5 +18,5 @@ function reverseString(aString) {
 
  let reversed = aString.split("").reverse().join("");
 
-printString(reversed);
+console.log(reversed)
 }
