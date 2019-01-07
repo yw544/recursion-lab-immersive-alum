@@ -24,17 +24,14 @@ function reverseString(myString){
   }
 }
 
- function isPalindrome(string){
-
-   if (string.length < 2) {
-     return true;
-   }
-   else {
-     if(string[0]===string[string.length-1])
-     return isPalindrome(string.substring(1, string.length-1))
-   }
-   else {
-     return false
-   }
-   }
- }
+function isPalindrome(str){
+  if(str.length < 2){
+    return true //base case
+  } else {
+    if(str[0]===str[str.length-1]){
+      return isPalindrome(str.substring(1, str.length-1))
+    }else{
+      return false
+    }
+  }
+}
