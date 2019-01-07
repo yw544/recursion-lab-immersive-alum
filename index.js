@@ -9,6 +9,6 @@ function printString(myString) {
   }
    else {
     return true;
-  
+
   }
 }
