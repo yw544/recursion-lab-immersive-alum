@@ -14,9 +14,12 @@ function printString(myString) {
 }
 
 
-function reverseString(aString) {
+function reverseString(myString){
 
- let reversed = aString.split("").reverse().join("");
-
-console.log(reversed)
+  if(myString.length === 1) {
+    return myString
+  }
+  else {
+    return reverseString(myString.substring(1)).concat(myString[0])
+  }
 }
