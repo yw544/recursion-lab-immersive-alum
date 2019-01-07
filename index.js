@@ -12,3 +12,11 @@ function printString(myString) {
 
   }
 }
+
+
+function reverseString(myString) {
+ let reversed = myString.split("").reverse().join("");
+
+  console.log(printString(reversed));
+
+}
