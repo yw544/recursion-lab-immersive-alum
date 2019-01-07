@@ -17,9 +17,9 @@ function printString(myString) {
 function reverseString(myString){
 
   if(myString.length === 1) {
-    return myString
+    return myString;
   }
   else {
-    return reverseString(myString.substring(1)).concat(myString[0])
+    return reverseString(myString.substring(1)).concat(myString[0]);
   }
 }
