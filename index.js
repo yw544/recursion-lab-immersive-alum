@@ -53,7 +53,7 @@ function addUpTo(arr, idx){
   if(idx){
     return arr[idx] + addUpTo(arr, --idx)
   } else {
-    return arr[idx] 
+    return arr[idx]
   }
 }
 
@@ -61,7 +61,7 @@ function maxOf(arr){
   if(arr.length === 1){
     return arr[0]
   } else {
-    return Math.max(arr.pop(), maxOf(arr)) 
+    return Math.max(arr.pop(), maxOf(arr))
   }
 }
 
