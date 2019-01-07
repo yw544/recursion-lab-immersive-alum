@@ -34,7 +34,7 @@ function reverseString(myString){
      return isPalindrome(string.substring(1, string.length-1))
    }
    else {
-     return false;
+     return false
    }
    }
  }
