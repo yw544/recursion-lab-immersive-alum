@@ -14,9 +14,9 @@ function printString(myString) {
 }
 
 
-function reverseString(myString) {
+function reverseString(aString) {
 
- let reversed = myString.split("").reverse().join("");
+ let reversed = aString.split("").reverse().join("");
 
 printString(reversed);
 }
